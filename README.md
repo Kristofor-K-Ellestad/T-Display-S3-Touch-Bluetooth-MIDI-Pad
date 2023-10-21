@@ -20,7 +20,7 @@ If you need basic help getting your Arduino environment up and running to progra
 https://github.com/teastainGit/LilyGO-T-display-S3-setup-and-examples
 
 You can make a basic enclosure to keep the device safe out of the same plastic box the T-display ships in.  Just cut a hole the size of the PCB but slightly shorter
-in the long dimension.  Be careful as the touch screen will easily lift off of the backlight panel, it can just stick back down.
+in the long dimension.  Be careful as the touch screen will easily lift off of the backlight panel, it can just stick back down though, you just don't want to torque the connection to the PCB.  Use the foam it came with to provide pressure from the bottom.  You can connect a Lipo battery with JST/GH 2 pin connector and charge via the USB-C port, the board has a charge controller.  If you do this you'll need to wire in a power switch.
 
 ---
 Default MIDI notes sent:
