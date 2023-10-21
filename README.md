@@ -1,9 +1,9 @@
 # T-Display-S3-Touch-Bluetooth-MIDI-Pad v0.1 README
 
-This project is an implementation of a MIDI Drum Pad for the LilyGo T-Display S3 Touch.
+This project is an implementation of a Bluetooth (BLE) MIDI Drum Pad for the LilyGo T-Display S3 Touch.
 
 Having experimented with the LilyGo T-Display-S3 ESP32 S3 based microcontroller before, getting ahold of a touch-screen version
-made it obvious this would be perfect for a project like this.
+made it obvious this would be perfect for a project like this with all the communication capabilities.
 
 The code divides the 320x170 pixel touch screen into a 16 rectangle grid.  Once connected to a host via BLE, pressing in the 
 grid will send a MIDI note - it is set up to send the 16 most common drum pad MIDI commands.  
