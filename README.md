@@ -8,9 +8,9 @@ made it obvious this would be perfect for a project like this with all the commu
 The code divides the 320x170 pixel touch screen into a 16 rectangle grid.  Once connected to a host via BLE, pressing in the 
 grid will send a MIDI note - it is set up to send the 16 most common drum pad MIDI commands.  
 
-It connects well to iOS devices and I've tested it with an M2 Macbook Pro.  On a Macbook, you need to connect via MIDI studio (Applications, Utilities, Midi studio).
+It connects well to iOS devices and I've tested it with an M2 Macbook Pro.  On a Macbook, you need to connect via MIDI studio (Applications, Utilities, Audio MIDI setup).
 On iOS devices, I've tested it with Garageband - (connect under Settings, Advanced, Bluetooth devices) and Korg Gadget II (Settings, Bluetooth devices).  If you have
-gadget open it will autodetect.
+gadget open it will autodetect the BLE device when you power it up, pretty sure Garageband does too.
 
 
 ----
@@ -19,7 +19,8 @@ You need the ESP32-BLE-MIDI and TFT-touch libraries for this.
 If you need basic help getting your Arduino environment up and running to program this particular board please see this excellent resource:
 https://github.com/teastainGit/LilyGO-T-display-S3-setup-and-examples
 
-
+You can make a basic enclosure to keep the device safe out of the same plastic box the T-display ships in.  Just cut a hole the size of the PCB but slightly shorter
+in the long dimension.  Be careful as the touch screen will easily lift off of the backlight panel, it can just stick back down.
 
 ---
 Default MIDI notes sent:
