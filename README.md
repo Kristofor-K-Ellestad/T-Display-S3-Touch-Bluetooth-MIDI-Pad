@@ -1,4 +1,4 @@
-# T-Display-S3-Touch-MIDI-Pad v0.1 README
+# T-Display-S3-Touch-Bluetooth-MIDI-Pad v0.1 README
 
 This project is an implementation of a MIDI Drum Pad for the LilyGo T-Display S3 Touch.
 
