@@ -5,8 +5,8 @@ This project is an implementation of a Bluetooth (BLE) MIDI Drum Pad for the Lil
 Having experimented with the LilyGo T-Display-S3 ESP32 S3 based microcontroller before, getting ahold of a touch-screen version
 made it obvious this would be perfect for a project like this with all the communication capabilities.
 
-The code divides the 320x170 pixel touch screen into a 16 rectangle grid.  Once connected to a host via BLE, pressing in the 
-grid will send a MIDI note - it is set up to send the 16 most common drum pad MIDI commands.  
+The code divides the 320x170 pixel touch screen into a 16 rectangle grid (pads).  Once connected to a host via BLE, pressing in the 
+grid will send a MIDI note and highlight the pad - it is set up to send the 16 most common drum pad MIDI commands.  
 
 It connects well to iOS devices and I've tested it with an M2 Macbook Pro.  On a Macbook, you need to connect via MIDI studio (Applications, Utilities, Audio MIDI setup).
 On iOS devices, I've tested it with Garageband - (connect under Settings, Advanced, Bluetooth devices) and Korg Gadget II (Settings, Bluetooth devices).  If you have
