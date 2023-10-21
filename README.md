@@ -45,15 +45,14 @@ Default MIDI notes sent:
 
 Road Map 
 ----------
-v0.1 is basic and works pretty well.  Sometimes if you rapidly flail about on the pads a note will "stick".  In order to solve this I need to add a routine to limit
-the length of time that a MIDI note can play once touched.
+v0.1 is basic and works pretty well.  Sometimes if you rapidly flail about on the pads a note will "stick".  There is a debounce routine and the pad feels best when the press delay time is kept low (30 ms or so).  I think in order to solve this I need to add a routine to limit the length of time that a MIDI note can play once touched.  There's a commented out routine to stop one note as soon as another one is touched, but I didn't like that for drum sounds with long reverb etc.
 
 Only one touch is registered at a time in the current version, nor can we address the home touch button on the t-display S3 touch or use swipe gestures for functions.
 These capabilities could be opened up by a change from touchlib.h based functions to use the CST816 library that was tested for T-display S3 touch specifically by mjdonders. 
 This will enable using the home button and swipe gestures among other things potentially
 (CST816_TouchLib)
 
-The buttons aren't currently used but I could see things like:
+The physical buttons aren't currently used but I could see things like:
 - selecting different sets of MIDI note presets.
 - changing colors of grid and highlights (currently hard-coded blue and red)
 - switching to an onscreen piano keyboard (probably 2 rows of keys)
