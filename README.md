@@ -42,7 +42,7 @@ Default MIDI notes sent:
     
 
 
-Road Map - 
+Road Map 
 ----------
 v0.1 is basic and works pretty well.  Sometimes if you rapidly flail about on the pads a note will "stick".  In order to solve this I need to add a routine to limit
 the length of time that a MIDI note can play once touched.
